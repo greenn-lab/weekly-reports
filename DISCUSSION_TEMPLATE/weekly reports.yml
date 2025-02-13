@@ -1,0 +1,38 @@
+title: "[주간업무동향] O월 O주차"
+labels: ["주간보고"]
+body:
+  - type: textarea
+    id: greetings
+    attributes:
+      label: 한 주, 고생 많으셨어요 👏
+      value: |
+        이렇게 또, 여러분과 함께해서 기쁘고 행복하네요.  
+        차분히 이번주를 되돌아보고, 밝은 다음주를 생각해 봐요. 😍  
+        > _(아래 템플릿을 복사해서 comment 로 작성해 주세요)_
+
+
+  - type: textarea
+    id: template
+    attributes:
+      label: 템플릿
+      value: |
+        ## 이번주
+        1. `2025-12-31` 중증외상센터 시청
+          - 하얗게 불태웠음
+
+        2. `2025-12-29` 대량의 뱀 사냥
+          - in the toilet
+
+        ## 다음주
+        - 기술부채 청산
+          - 아내에게 리펙토링 선물 (반지는 언제나, 옳지) 
+          - SOLID 원칙 위반 사례 검토 (토나올 때까지 쏠리드나...)
+
+        ---
+
+        > [!IMPORTANT]  
+        > 다음주 월/화/수/목/금 휴가 에요. 
+
+      render: markdown
+    validations:
+      required: true
